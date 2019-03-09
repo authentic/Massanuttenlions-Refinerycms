@@ -1,5 +1,5 @@
 # Massanuttenlions-Refinerycms
-The Massanutten Lions Club
+The McGaheysville-Massanutten Lions Club
 # README
 
 This README would normally document whatever steps are necessary to get the
