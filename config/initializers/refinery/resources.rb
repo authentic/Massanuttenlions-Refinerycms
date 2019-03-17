@@ -13,8 +13,8 @@ Refinery::Resources.configure do |config|
   # Refer to config/initializers/refinery/dragonfly.rb for the full list of dragonfly configurations which can be used.
   # This includes all dragonfly config for Dragonfly v 1.1.1
 
-  # config.dragonfly_verify_urls     = true
-  # config.dragonfly_secret          = "af1bb08a0a4840591bfc0c8baee4af9b5fb08a3d906f3cda"
+  config.dragonfly_verify_urls     = false
+  config.dragonfly_secret          = "af1bb08a0a4840591bfc0c8baee4af9b5fb08a3d906f3cda"
   # config.dragonfly_url_host        = ""
   # config.dragonfly_datastore_root_path = "/home/olga/Sites/massanuttenlions-refinerycms/public/system/refinery/resources"
   # config.dragonfly_url_format       = "/system/refinery/resources/:job/:basename.:ext"

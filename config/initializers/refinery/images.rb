@@ -4,7 +4,7 @@ Refinery::Images.configure do |config|
   #  Refinery::Images configuration
 
   # Configures the maximum allowed upload size (in bytes) for an image
-  # config.max_image_size = 5242880
+  config.max_image_size = 5242880
 
   # Configure how many images per page should be displayed when a dialog is presented that contains images
   # config.pages_per_dialog = 18
@@ -33,8 +33,8 @@ Refinery::Images.configure do |config|
   # This includes all dragonfly config for Dragonfly v 1.1.1
 
   config.dragonfly_name = :refinery_images
-  # config.dragonfly_verify_urls = true
-  # config.dragonfly_secret = "af1bb08a0a4840591bfc0c8baee4af9b5fb08a3d906f3cda"
+  config.dragonfly_verify_urls = true
+  config.dragonfly_secret = "af1bb08a0a4840591bfc0c8baee4af9b5fb08a3d906f3cda"
   # config.dragonfly_url_host = ""
   # config.dragonfly_datastore_root_path = "/home/olga/Sites/massanuttenlions-refinerycms/public/system/refinery/images"
   # config.dragonfly_url_format = "/system/refinery/images/:job/:basename.:ext"
